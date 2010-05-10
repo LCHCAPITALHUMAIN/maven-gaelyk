@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.codeconsole</groupId>
+  <artifactId>gaelyk-archetype</artifactId>
+  <version>0.4.0</version>
+  <versioning>
+    <latest>0.4.0</latest>
+    <versions>
+      <version>0.4.0</version>
+    </versions>
+    <lastUpdated>20100510043221</lastUpdated>
+  </versioning>
+</metadata>
