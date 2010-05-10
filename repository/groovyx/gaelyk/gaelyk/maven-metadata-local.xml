@@ -2,11 +2,11 @@
 <metadata>
   <groupId>groovyx.gaelyk</groupId>
   <artifactId>gaelyk</artifactId>
-  <version>0.5.8</version>
+  <version>0.4</version>
   <versioning>
     <versions>
-      <version>0.5.8</version>
+      <version>0.4</version>
     </versions>
-    <lastUpdated>20100510004413</lastUpdated>
+    <lastUpdated>20100510014555</lastUpdated>
   </versioning>
 </metadata>
