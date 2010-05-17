@@ -50,7 +50,7 @@
 		<repository>
 			<id>maven-gaelyk-deploy</id>
 			<uniqueVersion>false</uniqueVersion>
-			<url>svn:https://maven-gaelyk.googlecode.com/svn/repository</url>
+			<url>scm:svn:https://maven-gaelyk.googlecode.com/svn/repository</url>
 		</repository>
 	</distributionManagement>
 
@@ -61,11 +61,28 @@
 				<artifactId>archetype-packaging</artifactId>
 				<version>2.0-alpha-5</version>
 			</extension>
+            <extension>
+                <groupId>org.apache.maven.scm</groupId>
+                <artifactId>maven-scm-manager-plexus</artifactId>
+                <version>1.1</version>
+            </extension>
+            <extension>
+                <groupId>org.apache.maven.scm</groupId>
+                <artifactId>maven-scm-provider-svnexe</artifactId>
+                <version>1.1</version>
+            </extension>
+<!--
 			<extension>
 				<groupId>org.jvnet.wagon-svn</groupId>
 				<artifactId>wagon-svn</artifactId>
 				<version>1.9</version>
 			</extension>
+			-->
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-scm</artifactId>
+                <version>1.0-beta-6</version>
+            </extension>			
 		</extensions>
 		<plugins>
 			<plugin>
