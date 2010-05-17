@@ -6,5 +6,10 @@
       <prefix>gaelyk-archetype</prefix>
       <artifactId>gaelyk-archetype</artifactId>
     </plugin>
+    <plugin>
+      <name>Archetype - gaelyk-security-archetype</name>
+      <prefix>gaelyk-security-archetype</prefix>
+      <artifactId>gaelyk-security-archetype</artifactId>
+    </plugin>
   </plugins>
 </metadata>
