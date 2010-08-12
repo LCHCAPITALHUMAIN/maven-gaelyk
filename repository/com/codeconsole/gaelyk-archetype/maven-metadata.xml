@@ -4,11 +4,12 @@
   <artifactId>gaelyk-archetype</artifactId>
   <version>0.4.0</version>
   <versioning>
-    <latest>0.4.1</latest>
+    <latest>0.4.3</latest>
     <versions>
       <version>0.4.0</version>
       <version>0.4.1</version>
+      <version>0.4.3</version>
     </versions>
-    <lastUpdated>20100511030846</lastUpdated>
+    <lastUpdated>20100812012642</lastUpdated>
   </versioning>
 </metadata>
