@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.codeconsole</groupId>
+	<artifactId>gaelyk-archetype</artifactId>
+	<packaging>maven-archetype</packaging>
+	<version>0.5.6</version>
+
+	<name>Archetype - gaelyk-archetype</name>
+	<url>http://maven-gaelyk.googlecode.com</url>
+	<description>Archetype for creating a Gaelyk (Groovy/Google App Engine) project (Gaelyk Template Project Mavenized)</description>
+
+	<developers>
+		<developer>
+			<id>alwaysvip</id>
+			<name>Scott Murphy</name>
+			<email>scott@alwaysvip.com</email>
+		</developer>
+	</developers>
+
+	<distributionManagement>
+		<downloadUrl>http://code.google.com/p/maven-gaelyk/downloads/list</downloadUrl>
+		<repository>
+			<id>maven-gaelyk-deploy</id>
+			<uniqueVersion>false</uniqueVersion>
+			<url>svn:https://maven-gaelyk.googlecode.com/svn/repository</url>
+		</repository>
+	</distributionManagement>
+
+	<build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.archetype</groupId>
+				<artifactId>archetype-packaging</artifactId>
+				<version>2.0-alpha-5</version>
+			</extension>
+			<extension>
+				<groupId>org.jvnet.wagon-svn</groupId>
+				<artifactId>wagon-svn</artifactId>
+				<version>1.9</version>
+			</extension>
+		</extensions>
+		<plugins>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.0-beta-9</version>
+				<configuration>
+					<releaseProfiles>release</releaseProfiles>
+					<goals>deploy</goals>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-archetype-plugin</artifactId>
+				<version>2.0-alpha-4</version>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
